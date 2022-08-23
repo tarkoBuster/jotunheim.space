@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <form action="#" class="form_register show">
+      <div class="wrapper_logo">
+        <div class="wrapper_logo__img">
+          <img src="img/logo/Logo.png" alt="logo" />
+        </div>
+        <div class="wrapper_logo__btn">
+          <button>login</button>
+        </div>
+
+        <div class="wrapper_logo__descr">
+            If u have account.
+            </div>
+      </div>
+      <div class="wrapper_register">
+        <h3 class="wrapper_register__descr">Welcome!</h3>
+        <div class="wrapper_register__items">
+          <div class="wrapper_register__items-item">
+            <input class="form_input" type="text" id="nName" placeholder="Nickname"/>
+          </div>
+          <div class="wrapper_register__items-item">
+            <input class="form_input" type="email" id="nEmail" placeholder="Email" />
+          </div>
+          <div class="wrapper_register__items-item">
+            <input class="form_input" type="password" id="pass" placeholder="password" />
+          </div>
+          <div class="wrapper_register__items-item">
+            <input class="form_input" type="password" id="sPass" placeholder="password" />
+          </div>
+        </div>
+
+        <button class="wrapper_register__btn">Register</button>
+      </div>
+    </form>
+
+    <form action="#" class="form_login hide">
+      <div class="wrapper_logo">
+        <div class="wrapper_logo__img">
+          <img src="img/logo/Logo.png" alt="logo" />
+        </div>
+        <div class="wrapper_logo__btn login__btn">
+          <button>register</button>
+        </div>
+
+        <div class="wrapper_logo__descr">If u dont have profile.</div>
+      </div>
+      <div class="wrapper_register">
+        <h3 class="wrapper_register__descr">Welcome back!</h3>
+        <div class="wrapper_register__items">
+          <div class="wrapper_register__items-item">
+            <input
+              class="form_input"
+              type="text"
+              id="nName"
+              placeholder="Nickname"
+            />
+          </div>
+          <div class="wrapper_register__items-item">
+            <input
+              class="form_input"
+              type="password"
+              id="pass"
+              placeholder="password"
+            />
+          </div>
+        </div>
+
+        <button class="wrapper_register__btn">Login</button>
+      </div>
+    </form>
+    <script src="js/script.js"></script>
+  </body>
+</html>
